@@ -3,7 +3,10 @@
       <a href="#" class="brand-logo"><img  src="images/logo.png" /></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="waves-effect waves-light btn" >Entrar</a></li>
-        <li><a class="waves-effect waves-light btn orange">Cadastrar-se</a></li>
+        <li><a><%= form_tag("signup", method: "get") do %>
+        <%= submit_tag("Regristrar-se", id: 'submit', :class => "waves-effect waves-light btn orange") %><br>
+        <%end%>
+        </li></a>
       </ul>
     </div>
   </nav>
