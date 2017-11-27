@@ -35,8 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'pg'
-  gem 'puma'
+  gem 'pg', '0.20.0'
+  #gem 'puma', '~> 3.7'
 end
 
 group :development do
