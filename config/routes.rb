@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
  # get 'user_info/welcome'
 
-  #root :to => 'home#home'
+  root :to => 'home#home'
   #get '/signup' => 'user#signup'
  # post '/welcome' => 'user_info#welcome'
 
