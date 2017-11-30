@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
 
+  get 'testando/testando'
+
+  get 'signin/signin'
+
  # get 'user_info/welcome'
 
   root :to => 'home#home'
-  #get '/signup' => 'user#signup'
- # post '/welcome' => 'user_info#welcome'
+  get '/signup' => 'user#signup'
+  post '/welcome' => 'user_info#welcome'
+  get '/signin' => 'signin#signin'
+  get '/teste' => 'testando#testando'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

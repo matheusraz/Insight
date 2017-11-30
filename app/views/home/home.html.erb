@@ -28,17 +28,12 @@
             <div class="nav-wrapper">
             <a href="#" id="logo-container" class="brand-logo">MD Template</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="waves-effect waves-light btn" >Entrar</a></li>
-                    <li><a><%= form_tag("signup", method: "get") do %>
-                    <%= button_to("Regristrar-se") %>
-                    <%end%></a></li>
+                    <li><%= link_to("Entrar", "signin", class: "waves-effect waves-light btn") %></li>
+                    <li><%= link_to("Regristrar-se", "signup", class: "waves-effect waves-light btn orange") %></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
-
-                    <li><a class="waves-effect waves-light btn" >Entrar</a></li>
-                    <li><a><%= form_tag("signup", method: "get") do %>
-                    <%= submit_tag("Regristrar-se", id: 'submit', :class => "waves-effect waves-light btn orange") %>
-                    <%end%></a></li>
+                    <li><%= link_to("Entrar", "signin", class: "waves-effect waves-light btn") %></li>
+                    <li><%= link_to("Regristrar-se", "signup", class: "waves-effect waves-light btn orange") %></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
