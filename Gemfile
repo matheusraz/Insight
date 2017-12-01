@@ -29,6 +29,8 @@ gem 'sdoc',  group: :doc #'~> 0.4.0',
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'devise'
+gem 'byebug'
+gem 'pg', '0.18.4'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -40,8 +42,6 @@ gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
-  gem 'pg', '0.18.4'
   #gem 'puma', '~> 3.7'
 end
 
