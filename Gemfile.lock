@@ -240,6 +240,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   byebug
   coffee-rails
   devise

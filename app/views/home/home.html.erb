@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <meta name="theme-color" content="#2196F3">
-    <title>Material UI One Page Theme</title>
+    <title>InsightApp</title>
 
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
@@ -26,23 +26,21 @@
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo">MD Template</a>
+            <a href="/" id="logo-container" class="brand-logo">INSIGHT</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><%= link_to("Entrar", "signin", class: "waves-effect waves-light btn") %></li>
-                    <li><%= link_to("Regristrar-se", "signup", class: "waves-effect waves-light btn orange") %></li>
+                    <li><%= link_to("Entrar", "users/sign_in", class: "waves-effect waves-light btn") %></li>
+                    <li><%= link_to("Regristrar-se", "users/sign_up", class: "waves-effect waves-light btn orange") %></li>
                     <% if current_user%>
-                    <%= current_user.inspect %>
+                    <!--< current_user.inspect %>-->
+                    
                     <%end%>
                     <% unless current_user %>
-                    <li><%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %></li>
+                    <li><%= link_to( "Sign in with Facebook", user_facebook_omniauth_authorize_path) %></li>
                     <%else%>
-                    <li><%= link_to "Log out", destroy_user_session_path %></li>
+                    <li><%= link_to( "Log out", destroy_user_session_path, method: :delete )%></li>
                     <%end%>
                 </ul>
-                <ul id="nav-mobile" class="side-nav">
-                    <li><%= link_to("Entrar", "/users/sign_in", class: "waves-effect waves-light btn") %></li>
-                    <li><%= link_to("Regristrar-se", "/users/sign_up", class: "waves-effect waves-light btn orange") %></li>
-                </ul>
+               
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
         </div>
@@ -53,11 +51,11 @@
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h1 class="text_h center header cd-headline letters type">
-            <span>I Love</span> 
+            <span>Queira</span> 
             <span class="cd-words-wrapper waiting">
-                <b class="is-visible">creating</b>
-                <b>designing</b>
-                <b>developing</b>
+                <b class="is-visible">Desempenho</b>
+                <b>Resultados</b>
+                <b>INSIGHT!</b>
             </span>
         </h1>
     </div>
