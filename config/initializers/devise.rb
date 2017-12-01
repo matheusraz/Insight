@@ -58,7 +58,7 @@ Devise.setup do |config|
   # given strategies, for example, `config.params_authenticatable = [:database]` will
   # enable it only for database (email + password) authentication.
   # config.params_authenticatable = true
-
+  config.secret_key = '4510913c3b4fbafeb1b3bb8c627f74abf573d03d82158d930e1cc9ca4b25c488e21a8abc3733c1bd89f8f9ab1d6a95f3e71d7f46059074f78c48285e43149fe6'
   # Tell if authentication through HTTP Auth is enabled. False by default.
   # It can be set to an array that will enable http authentication only for the
   # given strategies, for example, `config.http_authenticatable = [:database]` will
