@@ -36,12 +36,12 @@
                     <% unless current_user %>
                     <li><%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %></li>
                     <%else%>
-                    <li><%= link_to "Sign in with Facebook", destroy_user_session_path %></li>
+                    <li><%= link_to "Log out", destroy_user_session_path %></li>
                     <%end%>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
-                    <li><%= link_to("Entrar", "signin", class: "waves-effect waves-light btn") %></li>
-                    <li><%= link_to("Regristrar-se", "signup", class: "waves-effect waves-light btn orange") %></li>
+                    <li><%= link_to("Entrar", "/users/sign_in", class: "waves-effect waves-light btn") %></li>
+                    <li><%= link_to("Regristrar-se", "/users/sign_up", class: "waves-effect waves-light btn orange") %></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>

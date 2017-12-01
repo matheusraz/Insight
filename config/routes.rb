@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   root :to => 'home#home'
   get '/signup' => 'user#signup'
   post '/welcome' => 'user_info#welcome'
-  get '/signin' => 'signin#signin'
+  get '/users/sign_in' => 'devise/sessions#new'
   get '/teste' => 'testando#testando'
 
   # The priority is based upon order of creation: first created -> highest priority.
