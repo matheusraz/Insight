@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get '/area_aluno' => 'profile#area_aluno'
+
+  get '/simulados' => 'profile#simulados'
+
+  get '/resultados' => 'profile#resultados'
+
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   get 'home/profile'
   get 'users/sign_up', to: 'devise/registrations#new'
