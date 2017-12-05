@@ -1,1 +1,0 @@
-!function(){window.ParsleyConfig=window.ParsleyConfig||{},window.ParsleyConfig.validators=window.ParsleyConfig.validators||{},window.ParsleyConfig.validators.notequalto={fn:function(n,o){return n!==($(o).length?$(o).val():o)},priority:256}}();

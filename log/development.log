@@ -6942,3 +6942,66 @@ rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
 /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
 /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
 /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/" for 187.59.247.123 at 2017-12-05 04:07:32 +0000
+Cannot render console from 187.59.247.123! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 2241ms (Views: 2233.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.59.247.123 at 2017-12-05 04:08:56 +0000
+Cannot render console from 187.59.247.123! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 224ms (Views: 222.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.59.247.123 at 2017-12-05 04:10:39 +0000
+Cannot render console from 187.59.247.123! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 245ms (Views: 242.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.59.247.123 at 2017-12-05 04:13:36 +0000
+Cannot render console from 187.59.247.123! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 2156ms (Views: 2149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.59.247.123 at 2017-12-05 04:14:02 +0000
+Cannot render console from 187.59.247.123! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 210ms (Views: 208.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.59.247.123 at 2017-12-05 04:14:53 +0000
+Cannot render console from 187.59.247.123! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 233ms (Views: 231.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.59.247.123 at 2017-12-05 04:37:22 +0000
+Cannot render console from 187.59.247.123! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 9671ms (Views: 9662.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AdminLTE.self-5681e93dc28703957c3c908f68a2e570d89019baeba8dad83fc0e84d9d33ac8f.css?body=1" for 187.59.247.123 at 2017-12-05 04:37:33 +0000
+Cannot render console from 187.59.247.123! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/application.self-1b208d7b398105ffef7c0c2449098ba38a5b88ffdeb4e32aae53f5a4ecc9dccf.css?body=1" for 187.59.247.123 at 2017-12-05 04:37:33 +0000
+Cannot render console from 187.59.247.123! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
