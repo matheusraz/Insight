@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   get '/simulados' => 'simulados#simulados'
 
-  get '/resultados' => 'profile#resultados'
+  get '/resultados' => 'profile_prof#resultados'
 
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   get 'home/profile'
