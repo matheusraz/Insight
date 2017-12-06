@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
 
+  get 'profile_prof/resultados'
+
+  get 'simulados/simulados'
+
   get '/area_aluno' => 'profile#area_aluno'
 
-  get '/simulados' => 'profile#simulados'
+  get '/simulados' => 'simulados#simulados'
 
   get '/resultados' => 'profile#resultados'
 
