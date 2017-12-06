@@ -2,9 +2,12 @@
 *@import "materialize";
 *@import "material_icons";
 *= require AdminLTE
+*= require _all-skins
 *= require_self
 *= require _all-skins
 */
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "AdminLTE";
+@import "_all-skins"
