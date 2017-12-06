@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   post '/welcome' => 'user_info#welcome'
   #get '/users/sign_in' => 'devise/sessions#new'
   get '/' => 'home#home'
+  get '/area_aluno' => 'profile#area_aluno'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
