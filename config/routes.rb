@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get '/questoes' => "questoes#questoes"
+  get '/questoes2' => "questoes#questoes2"
+
+
   get 'profile_prof/resultados'
 
   get 'simulados/simulados'
