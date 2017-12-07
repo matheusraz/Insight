@@ -27,7 +27,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 </head>
 
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue sidebar-mini" onload="script();">
 <div class="wrapper">
 
   <!-- Main Header -->
@@ -331,6 +331,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="js/demo.js"></script>
 <!-- page script -->
 <script>
+
+function script (){
   $(function () {
     /* ChartJS
      * -------
@@ -532,6 +534,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     barChartOptions.datasetFill = false
     barChart.Bar(barChartData, barChartOptions)
   })
+}
+  
 </script>
 <script>
     $.material.init();
