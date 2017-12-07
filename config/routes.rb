@@ -26,6 +26,7 @@ Rails.application.routes.draw do
   #get '/users/sign_in' => 'devise/sessions#new'
   get '/' => 'home#home'
   get '/area_aluno' => 'profile#area_aluno'
+  get '/resultados_aluno' => 'profile#resultados'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
