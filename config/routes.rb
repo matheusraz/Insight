@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'profile_prof/resultados'
 
   get 'simulados/simulados'
+  get '/select_login' => "signin#pre-login"
 
   get '/area_aluno' => 'profile#area_aluno'
 
