@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   get 'users/sign_in' => 'devise/sessions#new'
   #get 'testando/testando'
 
-  #get 'signin/signin'
+  get '/signin' => 'signin#signin'
 
  # get 'user_info/welcome'
 
