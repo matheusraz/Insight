@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MaterialAdminLTE 2 | Starter</title>
+  <title>Insight | Simulados</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -255,12 +255,81 @@ desired effect
             <div class="icon">
               <i class="fa fa-balance-scale"></i>
             </div>
-            <a href="#" class="small-box-footer">
+            <a href="#" class="small-box-footer" data-toggle="modal" data-target="#modal-success">
               Fazer a prova <i class="fa fa-arrow-circle-right"></i>
             </a>
           </div>
         </div>
     </div>
+    
+   <!-- /.modal -->
+
+        <div class="modal modal-success fade" id="modal-success">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h2 class="modal-title">Questonário da Semana</h2>
+              </div>
+              <div class="modal-body">
+                <h3>O que você fez para descontrair durante essa semana?</h3>
+                
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <h4><input class="form-check-input" type="checkbox" value="Netflix">
+                    Netflix</h4>
+                  </label>
+                </div>
+                
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <h4><input class="form-check-input" type="checkbox" value="Playstation">
+                    Playstation</h4>
+                  </label>
+                </div>
+                
+                <div class="form-check">
+                  <label class="form-check-label">
+                   <h4><input class="form-check-input" type="checkbox" value= "Xbox">
+                  Xbox</h4>
+                  </label>
+                </div>
+                
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <h4><input class="form-check-input" type="checkbox" value="Celular/APPS">
+                     Celular/APPS</h4>
+                  </label>
+                </div>
+                
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <h4><input class="form-check-input" type="checkbox" value="Livros">
+                    Livros</h4>
+                  </label>
+                </div>
+                
+                <div class="form-check">
+                  <label class="form-check-label">
+                   <h4> <input class="form-check-input" type="checkbox" value="Outros">
+                    Outros</h4>
+                  </label>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="/questoes" type="button" class="btn btn-outline">Enviar</a>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    
+    
+    
+    
         
     <div class="row" style="padding-left:20px;padding-right:20px">
         <!-- ./col -->
@@ -329,6 +398,16 @@ desired effect
 <script>
     $.material.init();
 </script>
+<!-- jQuery 3 -->
+<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="../../bower_components/fastclick/lib/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/app.min.js"></script>
 
